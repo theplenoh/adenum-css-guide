@@ -3,7 +3,7 @@
 ## Example Code
 ```css
 /*** CSS reset ***/
-/*** webfonts ***/
+/*** Webfonts ***/
 
 
 
@@ -29,3 +29,4 @@
 
 ## CSS reset
 In my case, I import Eric Meyer's CSS reset sheet to reset the default stylesheets of different web browsers. One might use a CSS normalization sheet.
+
