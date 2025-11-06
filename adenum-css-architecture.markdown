@@ -42,6 +42,8 @@ body {
     line-height: 1.0;
 }
 
+/*** Layout ***/
+
 /*** Modules ***/
 
 /*** Details ***/
