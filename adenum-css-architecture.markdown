@@ -44,7 +44,7 @@ body {
 
 /*** Layout ***/
 header {
-    width: 100%;
+    width: 960px;
     margin: 0 auto;
 }
 
