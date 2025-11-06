@@ -1,5 +1,8 @@
 # Adenum CSS Architecture
 
+## Introduction
+Adenum CSS Architecture is a CSS organization/architecture guideline with an attempt to emphasize code maintenance and readability.
+
 ## Example Code
 ```css
 /*** CSS reset ***/
