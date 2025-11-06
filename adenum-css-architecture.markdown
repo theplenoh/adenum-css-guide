@@ -5,14 +5,42 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
 
 ## Example Code
 ```css
+@charset 'utf-8';
+
 /*** CSS reset ***/
+@import url('/styles/reset.css');
 /*** Webfonts ***/
+@import url('/styles/webfont-Pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
 /*** Common ***/
+html, html * {
+    box-sizing: border-box;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+}
+mark {
+    background-color: transparent;
+    color: inherit;
+}
 
 /*** Typography ***/
+body {
+    font-family: 'Pretendard', 'Noto Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.0;
+}
 
 /*** Modules ***/
 
