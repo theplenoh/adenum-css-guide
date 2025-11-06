@@ -30,3 +30,5 @@
 ## CSS reset
 In my case, I import Eric Meyer's CSS reset sheet to reset the default stylesheets of different web browsers. One might use a CSS normalization sheet.
 
+## Webfonts
+One may import as many webfont loading stylesheets as he/she wants.
