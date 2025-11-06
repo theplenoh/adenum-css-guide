@@ -26,3 +26,6 @@
 
 /*** Animations ***/
 ```
+
+## CSS reset
+In my case, I import CSS reset written by Eric Meyer. One might use CSS a normalization sheet.
