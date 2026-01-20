@@ -5,7 +5,7 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
 
 ## Example Code
 ```css
-@charset 'utf-8';
+@charset "UTF-8";
 
 /*** CSS reset ***/
 @import url('/styles/reset.css');
