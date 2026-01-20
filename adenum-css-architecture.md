@@ -69,3 +69,6 @@ In my case, I import Eric Meyer's CSS reset sheet to reset the default styleshee
 
 ## Webfonts
 One may import as many webfont loading stylesheets as he/she needs.
+
+## Common
+Rules that are commonly applied to all blocks throughout the website may be set here. These rules are after the CSS reset sheet has been applied.
