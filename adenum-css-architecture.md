@@ -7,9 +7,9 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
 ```css
 @charset "UTF-8";
 
-/*** CSS reset ***/
+/*** =CSS reset ***/
 @import url('/styles/reset.css');
-/*** Webfonts ***/
+/*** =Webfonts ***/
 @import url('/styles/webfont-Pretendard.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
