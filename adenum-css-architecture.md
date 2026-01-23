@@ -98,4 +98,6 @@ A CSS ID selector is used to label Layout blocks&mdash;`#masthead`, `#content`, 
 ## Modules
 Module blocks are reusable components of a website. They may be used once or more in a website.
 
+Module blocks are placed inside a Layout block.
+
 A CSS class selector is used to label Module blocks&mdash;`.description`, `.tag-cloud`, `.pinned`, `.pages`.
