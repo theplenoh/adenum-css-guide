@@ -61,7 +61,7 @@ header {
     }
 /* END::header */
 
-/*** Animations ***/
+/*** Motions ***/
 ```
 
 ## CSS Reset
