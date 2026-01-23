@@ -16,7 +16,9 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
 
 
 
-/*** Common ***/
+/******************************
+ =Common
+ ******************************/
 html, html * {
     box-sizing: border-box;
 }
@@ -35,22 +37,30 @@ mark {
     color: inherit;
 }
 
-/*** Typography ***/
+/******************************
+ =Typography
+ ******************************/
 body {
     font-family: 'Pretendard', 'Noto Sans', sans-serif;
     font-weight: 400;
     line-height: 1.0;
 }
 
-/*** Layout ***/
+/******************************
+ =Layout
+ ******************************/
 header {
     width: 960px;
     margin: 0 auto;
 }
 
-/*** Modules ***/
+/******************************
+ =Modules
+ ******************************/
 
-/*** Details ***/
+/******************************
+ =Details
+ ******************************/
 /* BEGIN::body */
     body {
         background-color: #ffffff;
@@ -61,7 +71,9 @@ header {
     }
 /* END::header */
 
-/*** Motions ***/
+/******************************
+ =Motions
+ ******************************/
 ```
 
 ## CSS Reset
