@@ -93,11 +93,11 @@ Layout blocks are the large frames that constitute the layout of a website.
 
 A Layout block differs from a Module block in the way that a Layout block is used only once on a website, whereas a Module block may be used once or more on a website.
 
-A CSS ID selector is used to label Layout blocks&mdash;`#masthead`, `#content`, `#sidebar`, `#footer`. The fact that an ID selector is only allowed for a single element suits well how a Layout block is only used once on a website.
+CSS ID selectors are used to label Layout blocks&mdash;`#masthead`, `#content`, `#sidebar`, `#footer`. The fact that an ID selector is only allowed for a single element suits well how a Layout block is only used once on a website.
 
 ## Modules
 Module blocks are reusable components of a website. They may be used once or more in a website.
 
 Module blocks are placed inside a Layout block.
 
-A CSS class selector is used to label Module blocks&mdash;`.description`, `.tag-cloud`, `.pinned`, `.pages`.
+CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-cloud`, `.pinned`, `.pages`.
