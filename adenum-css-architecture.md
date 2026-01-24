@@ -112,3 +112,6 @@ An ID selector that specifies which Layout block a Module belongs to comes befor
 It is intended that specificity increases from broader declarations to very particular rules as the parser runs from the top of the stylesheet to the bottom&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, Details, Motions.
 
 Optionally, States and Theme can come between Details and Motions&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, Details, *States*, *Theme*, Motions.
+
+## Motions
+The section Motions describe animations and interative parts on the website.
