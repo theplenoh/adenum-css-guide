@@ -89,7 +89,7 @@ Webfont loading stylesheets, as many as needed, may be imported here.
 Rules that are commonly applied to all blocks throughout the website may be set here. These rules are after the CSS reset sheet has been applied.
 
 ## Typography
-Visual rhythm of text throughout the website is described here. A separate section from the section Details is assigned to easily edit the typographic rhythm for future maintenance. A new line is used for distinction between different Layout blocks.
+Visual rhythm of text throughout the website is described here. A separate section from the section Details is assigned to easily edit the typographic rhythm for later maintenance. A new line is used for distinction between different Layout blocks.
 
 ## Layout
 Layout blocks are the large frames that constitute the layout of a website.
