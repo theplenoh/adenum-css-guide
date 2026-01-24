@@ -110,9 +110,9 @@ CSS declarations here define structural details of reusable blocks in a website.
 ## Details
 Details are CSS properties that describe blocks, including decorative parts such as background images, border styles or micro-adjustments.
 
-An ID selector that specifies which Layout block a Module belongs to comes before the Module name. It serves as a namespace in a way. Everything is globally scoped in CSS, so specifying what Layout block a Module belongs to adds to managed specificity.
+An ID selector that specifies which Layout block a Module belongs to comes before the Module name. It serves as a namespace in a way. Everything is globally scoped in CSS, so specifying which Layout block a Module belongs to adds to managed specificity.
 
-It is intended that specificity increases from broader declarations to very particular rules as the parser runs from the top of the stylesheet to the bottom&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, Details, Motions.
+It is intended that specificity increases from broader declarations to very particular rules as the CSS parser runs from the top of the stylesheet to the bottom&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, Details, Motions.
 
 Optionally, States and Theme can come between Details and Motions&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, Details, *States*, *Theme*, Motions.
 
