@@ -105,7 +105,7 @@ Module blocks are placed inside a Layout block.
 
 CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-cloud`, `.pinned`, `.pages`.
 
-CSS declarations here define structural details of reusable blocks on a website.
+CSS declarations here define structural details of reusable blocks in a website.
 
 ## Details
 Details are CSS properties that describe blocks, including decorative parts such as background images, border styles or micro-adjustments.
