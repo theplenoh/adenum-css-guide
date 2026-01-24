@@ -80,7 +80,7 @@ header {
 ```
 
 ## CSS Reset
-In this example code, Eric Meyer's classic CSS reset sheet is imported first to reset the default styles of different web browsers. A CSS normalization sheet may be used instead.
+In the example code, Eric Meyer's classic CSS reset sheet is imported first to reset the default styles of different web browsers. A CSS normalization sheet may be used instead.
 
 ## Webfonts
 Webfont loading stylesheets, as many as needed, may be imported here.
