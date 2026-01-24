@@ -101,3 +101,8 @@ Module blocks are reusable components of a website. They may be used once or mor
 Module blocks are placed inside a Layout block.
 
 CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-cloud`, `.pinned`, `.pages`.
+
+## Details
+Details are CSS properties that describe blocks, including decorational parts such as background images, border styles or micro adjustments.
+
+An ID selector that specifies what Layout block a Module belongs to comes before the Module name. It serves as a namespace in a way. Everything is globally scoped in CSS, so specifying what Layout block a Module belongs to adds to managed specificity.
