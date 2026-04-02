@@ -8,6 +8,6 @@ I was roughly developing my own CSS code structure by having these sections in t
 Now, I intend to finish writing the Adenum CSS Architecture/Guide document, referring to my own experience and thoughts of building Web Standards-compliant websites from 2007 to present as well as the SMACSS methodology.
 
 ## Copyright
-© 2025 Adenum Services.  
+© 2026 Adenum Services.  
 All rights reserved.  
 Adenum CSS Guide / Architecture is a work by Adenum Services.
