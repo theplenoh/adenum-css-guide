@@ -1,6 +1,6 @@
 # Adenum CSS Guide
 
-## Why invest so much effort in a language like CSS?
+## Why Invest So Much Effort in a Language Like CSS?
 One might wonder why I put so much work into a language like CSS. I believe there is already a good amount of great work done for other languages like JavaScript/TypeScript, Python, and Java&mdash;conventions, good practices, and design patterns. CSS features global scope and is prone to specificity pollution. As I coded in CSS, I was not at all proud of the CSS codebases I wrote. I just had to cope with such discomfort. For a long time, I thought it was my own lack of understanding and proficiency in CSS. As I discovered later on from blog posts of front-end developers, I learned that it is an inherent design problem of CSS. CSS was the only language that I had trouble writing clean, well-structured, trouble-free code. Therefore, I decided to organize and compile my 20 years' experience of dealing with CSS into this CSS guideline/architecture.
 
 ## Motivation to Create a CSS Architecture
