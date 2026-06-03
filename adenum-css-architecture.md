@@ -113,5 +113,5 @@ It is intended that specificity increases from broader declarations to very part
 
 Optionally, the section Theme can come between Details and Motions, and the section States can be placed between Modules and Details&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, *States*, Details, *Theme*, Motions.
 
-## Motions
-The section Motions describe animations and interactive parts on the website.
+## Animations
+The section Animations describe animations and interactive parts on the website.
