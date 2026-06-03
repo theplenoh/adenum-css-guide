@@ -7,52 +7,93 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
 ```css
 @charset "UTF-8";
 
-/*** =CSS reset ***/
-@import url('/styles/reset.css');
+/*** =CSS Reset ***/
+@import url("/styles/reset.css");
 /*** =Webfonts ***/
-@import url('/styles/webfont-Pretendard.css');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("/styles/webfont-Pretendard.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/*** =Only applied to IE11 ***/
+@import url("/styles/ie11-patch.css");
 
 
 
 /******************************
  =Common
  ******************************/
-html, html * {
-    box-sizing: border-box;
-}
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    padding: 0;
-    margin: -1px;
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-}
-mark {
-    background-color: transparent;
-    color: inherit;
-}
+    html, html * {
+        box-sizing: border-box;
+    }
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        padding: 0;
+        margin: -1px;
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+    }
+    mark {
+        background-color: transparent;
+        color: inherit;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    a:hover {
+        color: #4c89c6;
+        text-decoration: underline;
+    }
 
 /******************************
  =Typography
  ******************************/
-body {
-    font-family: 'Pretendard', 'Noto Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1.0;
-}
+    body {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.0;
+        color: #666;
+    }
+
+    #masthead {
+        font-size: 13px;
+        color: #fff;
+    }
+    #masthead a {
+        color: inherit;
+        text-decoration: none;
+    }
+    #masthead h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    #masthead .subtitle {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+    }
+    #masthead .links {
+        letter-spacing: -0.01em;
+    }
 
 /******************************
  =Layout
  ******************************/
-header {
-    width: 960px;
-    margin: 0 auto;
-}
+    #masthead {
+        width: 100%;
+    }
+    #masthead > .wrap-inner {
+        position: relative;
+        width: 960px;
+        height: 110px;
+        margin: 0 auto;
+    }
 
 /******************************
  =Modules
@@ -63,17 +104,48 @@ header {
  ******************************/
 /* BEGIN::body */
     body {
-        background-color: #ffffff;
+        background: #fff;
     }
 /* END::body */
-/* BEGIN::header */
-    header {
+/* BEGIN::#masthead */
+    #masthead {
+        background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
     }
-/* END::header */
+    #masthead .wrap-inner {
+        background: transparent url('/images/header-bg.png') repeat-x;
+        background-position-y: 50%;
+        background-position-x: 0;
+    }
+    #masthead .logo {
+        padding-top: 27px;
+    }
+    #masthead .gnb {
+        display: none;
+    }
+    #masthead .links {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 71px;
+    }
+    #masthead .links > ul {
+        display: flex;
+    }
+    #masthead .links > ul > li > a {
+        display: block;
+        padding: 6px 6.5px;
+        text-transform: uppercase;
+    }
+/* END::#masthead */
 
 /******************************
- =Motions
+ =Animations
  ******************************/
+
+/*** =Scaffolding ***/
+#container, #footer, #sidebar-overlay {
+    display: none;
+}
 ```
 
 ## CSS Reset
