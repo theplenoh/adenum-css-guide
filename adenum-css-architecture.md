@@ -81,6 +81,15 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
     #masthead .links {
         letter-spacing: -0.01em;
     }
+    @media screen and (max-width: 810px) {
+        #masthead h1 {
+            font-size: 29px;
+        }
+        #masthead .subtitle {
+            font-size: 12px;
+            line-height: 10px;
+        }
+    }
 
 /******************************
  =Layout
@@ -93,6 +102,15 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
         width: 960px;
         height: 110px;
         margin: 0 auto;
+    }
+    #masthead .gnb {
+        display: none;
+    }
+    @media screen and (max-width: 810px) {
+        #masthead > .wrap-inner {
+            width: 100%;
+            height: 80px;
+        }
     }
 
 /******************************
@@ -119,9 +137,6 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
     #masthead .logo {
         padding-top: 27px;
     }
-    #masthead .gnb {
-        display: none;
-    }
     #masthead .links {
         position: absolute;
         top: 0;
@@ -135,6 +150,81 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
         display: block;
         padding: 6px 6.5px;
         text-transform: uppercase;
+    }
+    @media screen and (max-width: 810px) {
+        #masthead > .wrap-inner {
+            background-position-y: calc(50% + 10px);
+        }
+        #masthead .logo {
+            flex-shrink: 0;
+            padding-top: 12px;
+            padding-left: 15px;
+        }
+        #masthead .gnb {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 70px;
+            height: 80px;
+        }
+        #masthead .links {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            padding: 0;
+            margin: -1px;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+        }
+        #masthead .gnb .btn-menu {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 24px;
+            height: 16px;
+            margin-top: -24px;
+            margin-left: -24px;
+            padding: 25px;
+            border: 0 none;
+            cursor: pointer;
+            clip: auto;
+            background-color: transparent;
+        }
+        #masthead .gnb .btn-menu > span {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 24px;
+            height: 3px;
+            margin-top: 25px;
+            margin-left: -12px;
+            background-color: #fff;
+            font-size: 0;
+        }
+        #masthead .gnb .btn-menu > span::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 24px;
+            height: 3px;
+            margin-top: -7px;
+            margin-left: -12px;
+            background-color: #fff;
+        }
+        #masthead .gnb .btn-menu > span::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 24px;
+            height: 3px;
+            margin-top: 7px;
+            margin-left: -12px;
+            background-color: #fff;
+        }
     }
 /* END::#masthead */
 
