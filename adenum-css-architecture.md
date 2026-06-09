@@ -267,6 +267,9 @@ CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-
 CSS declarations here define structural details and common decorative properties of reusable blocks in a website.
 
 ## States
+States defined here can be overridden by details in the next section.
+
+States are general properties that represent the state of an element&mbash;`.is-open`, `.is-closed`, `is-active`, `is-hidden`.
 
 ## Details
 Details are CSS properties that describe blocks, including decorative parts such as background images, border styles or micro-adjustments.
