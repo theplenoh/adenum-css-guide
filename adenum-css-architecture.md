@@ -266,6 +266,8 @@ CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-
 
 CSS declarations here define structural details and common decorative properties of reusable blocks in a website.
 
+## States
+
 ## Details
 Details are CSS properties that describe blocks, including decorative parts such as background images, border styles or micro-adjustments.
 
