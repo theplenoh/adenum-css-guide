@@ -269,7 +269,7 @@ CSS declarations here define structural details and common decorative properties
 ## States
 States defined here can be overridden by details in the next section. That is why the section States precedes the section Details.
 
-States are general properties that represent the state of an element&mbash;`.is-open`, `.is-closed`, `is-active`, `is-hidden`.
+States are general properties that represent the state of an element&mdash;`.is-open`, `.is-closed`, `is-active`, `is-hidden`.
 
 ## Details
 Details are CSS properties that describe blocks, including decorative parts such as background images, border styles or micro-adjustments.
