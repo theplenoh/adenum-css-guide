@@ -81,7 +81,7 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
     #masthead .links {
         letter-spacing: -0.01em;
     }
-    @media screen and (max-width: 810px) {
+    @media screen and (max-width: 1023px) {
         #masthead h1 {
             font-size: 29px;
         }
@@ -91,9 +91,33 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
         }
     }
 
+    #content .post-entry {
+        font-family: 'Pretendard', sans-serif;
+    }
+    #content .post-entry h2 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #333;
+    }
+    #content .post-entry-body p {
+        margin: 1.0em 0;
+        line-height: 1.6;
+    }
+
+    #sidebar {
+        font-family: 'Pretendard', sans-serif;
+    }
+    #sidebar .pages {
+        font-size: 13px;
+    }
+
 /******************************
  =Layout
  ******************************/
+    body {
+        position: relative;
+    }
+
     #masthead {
         width: 100%;
     }
@@ -106,16 +130,69 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
     #masthead .gnb {
         display: none;
     }
-    @media screen and (max-width: 810px) {
+    @media screen and (max-width: 1023px) {
         #masthead > .wrap-inner {
             width: 100%;
             height: 80px;
         }
     }
 
+    #container {
+        display: flex;
+        align-items: stretch;
+        width: 960px;
+        min-height: calc(100vh - 110px);
+        margin: 0 auto;
+    }
+    @media screen and (max-width: 1023px) {
+        #container {
+            width: 100%;
+        }
+    }
+    #content {
+        width: 710px;
+        padding: 30px 0 30px;
+    }
+    @media screen and (max-width: 1023px) {
+        #content {
+            width: 100%;
+            padding: 15px 15px 30px;
+        }
+    }
+    #sidebar {
+        width: 220px;
+        margin-left: 30px;
+        padding: 30px 15px 30px;
+    }
+    @media screen and (max-width: 1023px) {
+        #sidebar {
+            width: 290px;
+            height: 100%;
+            padding: 0 15px 30px;
+        }
+    }
+
 /******************************
  =Modules
  ******************************/
+    .description {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+    .pages {
+        margin: 10px 0;
+    }
+
+    .post-entry {
+        margin-bottom: 40px;
+    }
+
+/******************************
+ =States
+******************************/
+    .is-open {
+        display: block !important;
+    }
 
 /******************************
  =Details
@@ -151,7 +228,7 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
         padding: 6px 6.5px;
         text-transform: uppercase;
     }
-    @media screen and (max-width: 810px) {
+    @media screen and (max-width: 1023px) {
         #masthead > .wrap-inner {
             background-position-y: calc(50% + 10px);
         }
@@ -174,7 +251,7 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
             height: 1px;
             overflow: hidden;
             padding: 0;
-            margin: -1px;
+            margin: 1px;
             border: 0;
             clip: rect(0, 0, 0, 0);
         }
@@ -227,13 +304,97 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
         }
     }
 /* END::#masthead */
+/* BEGIN::#content */
+    #content .post-entry h2 {
+        padding: 7px 0;
+    }
+    #content .post-entry header {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 0.45em;
+    }
+    #content .post-entry header > div {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.25em 0 0.45em;
+    }
+    #content .post-entry-info dl > * {
+        display: inline-block;
+    }
+    #content .post-entry-info dd {
+        margin-right: 0.25em;
+    }
+    #content .post-entry-info dd > time {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 0.95em;
+    }
+    #content .post-entry-mgmt ul > * {
+        display: inline-block;
+    }
+    #content .post-entry-mgmt li {
+        margin-right: 0.25em;
+    }
+/* END::#content */
+/* BEGIN::#sidebar */
+    #sidebar {
+        background-color: #f7f7f7;
+    }
+    #sidebar .ctrl {
+        display: none;
+    }
+    #sidebar .pages li > a {
+        display: inline-block;
+        padding: 5px 0;
+    }
+    #sidebar-overlay {
+        display: none;
+    }
+    @media screen and (max-width: 1023px) {
+        #sidebar {
+            display: none;
+            position: absolute;
+            z-index: 100;
+            top: 0;
+            right: 0;
+        }
+        #sidebar .ctrl {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 80px;
+        }
+        #sidebar .ctrl a {
+            position: absolute;
+            display: block;
+            width: 28px;
+            height: 28px;
+            margin-top: 3px;
+            margin-right: 5px;
+        }
+        #sidebar .ctrl a img {
+            width: 28px;
+            height: auto;
+            padding: 3.5px;
+        }
+        #sidebar-overlay {
+            display: none;
+            position: absolute;
+            z-index: 10;
+            width: 100vw;
+            height: 100%;
+            background-color: #ccc;
+            opacity: 0.65;
+            top: 0;
+            right: 0;
+        }
+    }
+/* END::#sidebar */
 
 /******************************
  =Animations
  ******************************/
 
 /*** =Scaffolding ***/
-#container, #footer, #sidebar-overlay {
+#footer, #sidebar-overlay {
     display: none;
 }
 ```
