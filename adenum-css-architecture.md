@@ -284,3 +284,4 @@ Optionally, the section Theme can come between Details and Motions, and the sect
 The section Animations describe animations and interactive parts on the website.
 
 ## Scaffolding
+The section Scaffolding contains temporary code used during development. It may include code that hides blocks that have not yet been worked on, since unfinished blocks can be distracting and visually unpleasant.
