@@ -282,3 +282,5 @@ Optionally, the section Theme can come between Details and Motions, and the sect
 
 ## Animations
 The section Animations describe animations and interactive parts on the website.
+
+## Scaffolding
