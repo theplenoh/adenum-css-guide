@@ -18,6 +18,10 @@ Module blocks are placed inside a Layout block.
 
 CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-cloud`, `.pinned`, `.pages`.
 
+## Managing Specificity
+### Namespacing
+An ID selector that specifies which Layout block a Module belongs to comes before the Module name. It serves as a namespace in a way. Everything is globally scoped in CSS, so specifying which Layout block a Module belongs to contributes to managed specificity.
+
 ## Section Description
 ### CSS Reset
 In the example code, Eric Meyer's classic CSS reset sheet is imported first to reset the default styles of different web browsers. A CSS normalization sheet may be used instead.
@@ -46,8 +50,6 @@ States are general properties that represent the state of an element&mdash;`.is-
 
 ### Details
 Details are CSS properties that describe blocks, including decorative parts such as background images, border styles or micro-adjustments.
-
-An ID selector that specifies which Layout block a Module belongs to comes before the Module name. It serves as a namespace in a way. Everything is globally scoped in CSS, so specifying which Layout block a Module belongs to contributes to managed specificity.
 
 It is intended that specificity increases from broader, more general declarations to very particular rules as the CSS parser runs from the top of the stylesheet to the bottom&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, Details, Animations.
 
