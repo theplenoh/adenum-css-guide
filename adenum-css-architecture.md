@@ -19,7 +19,7 @@ Module blocks are placed inside a Layout block.
 CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-cloud`, `.pinned`, `.pages`.
 
 ## Managing Specificity
-### Namespacing
+### Namespace
 An ID selector that specifies which Layout block a Module belongs to comes before the Module name. It serves as a namespace in a way. Everything is globally scoped in CSS, so specifying which Layout block a Module belongs to contributes to managed specificity.
 
 ### Cascade
