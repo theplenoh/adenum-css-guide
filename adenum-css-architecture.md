@@ -39,7 +39,7 @@ Rules that are commonly applied to all blocks throughout the website may be set 
 Visual rhythm of text throughout the website is described here. A separate section from the section Details is assigned to easily edit the typographic rhythm for later maintenance. A new line is used for distinction between different Layout blocks.
 
 ### Layout
-CSS declarations relating to major/minor layout descriptions are placed here. Such layout descriptions are box-model related properties, grid/flex-related properties, and properties related to display, overflow, float and position.
+CSS declarations relating to major/minor layout descriptions are placed here. Such layout descriptions are box-model related properties, grid/flex related properties, and properties related to display, overflow, float, and position.
 
 Declarations that define decorative features and micro-adjustments should not be here.
 
