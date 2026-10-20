@@ -56,6 +56,9 @@ Details are CSS properties that describe blocks, including decorative parts such
 
 Optionally, the section Theme can come between Details and Animations, and the section States can be placed between Modules and Details&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, *States*, Details, *Theme*, Animations.
 
+### Theme
+The section Theme contains descriptions for themes such as Light/Dark mode. They can be color sets.
+
 ### Animations
 The section Animations describe animations and interactive parts on the website.
 
