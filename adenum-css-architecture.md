@@ -41,7 +41,7 @@ Visual rhythm of text throughout the website is described here. A separate secti
 ### Layout
 CSS declarations relating to major/minor layout descriptions are placed here. Such layout descriptions are box-model related properties, grid/flex related properties, and properties related to display, overflow, float, and position.
 
-Declarations that define decorative features and micro-adjustments should not be here.
+Declarations that describe decorative features and micro-adjustments should not be here.
 
 ### Modules
 CSS declarations here define structural details and common decorative properties of Module blocks, which are reusable components, in a website.
