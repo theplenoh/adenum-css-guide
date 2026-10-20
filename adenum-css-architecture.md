@@ -1,7 +1,7 @@
 # Adenum CSS Architecture
 
 ## Introduction
-Adenum CSS Architecture is a CSS organization/architecture guideline with an attempt to emphasize code maintenance, modularity, and readability. It is a guideline that preserves classical values of web standards&mdash;semantic markup and use of the ID selector&mdash;and cleverly combines modern managing techniques such as layered CSS sections and separation of concerns.
+Adenum CSS Architecture is a CSS organization/architecture guideline with an attempt to emphasize code maintenance, modularity, and readability. It is a guideline that preserves classical values of web standards&mdash;semantic markup and use of the ID selector&mdash;and cleverly combines modern managing techniques such as layered CSS sections, separation of concerns, and namespacing.
 
 ## Example Code
 ```css
