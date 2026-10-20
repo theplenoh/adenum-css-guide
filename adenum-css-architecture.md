@@ -399,26 +399,27 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
 }
 ```
 
-## CSS Reset
+## Section Description
+### CSS Reset
 In the example code, Eric Meyer's classic CSS reset sheet is imported first to reset the default styles of different web browsers. A CSS normalization sheet may be used instead.
 
-## Webfonts
+### Webfonts
 Webfont loading stylesheets, as many as needed, may be imported here.
 
-## Common
+### Common
 Rules that are commonly applied to all blocks throughout the website may be set here. These rules are after the CSS reset sheet has been applied.
 
-## Typography
+### Typography
 Visual rhythm of text throughout the website is described here. A separate section from the section Details is assigned to easily edit the typographic rhythm for later maintenance. A new line is used for distinction between different Layout blocks.
 
-## Layout
+### Layout
 Layout blocks are the large frames that constitute the layout of a website.
 
 A Layout block differs from a Module block in the way that a Layout block is used only once in a website, whereas a Module block may be used once or more on a website.
 
 CSS ID selectors are used to label Layout blocks&mdash;`#masthead`, `#content`, `#sidebar`, `#footer`. The fact that an ID selector is only allowed for a single element suits well how a Layout block is only used once in a website.
 
-## Modules
+### Modules
 Module blocks are reusable components of a website. They may be used once or more in a website.
 
 Module blocks are placed inside a Layout block.
@@ -427,12 +428,12 @@ CSS class selectors are used to label Module blocks&mdash;`.description`, `.tag-
 
 CSS declarations here define structural details and common decorative properties of reusable blocks in a website.
 
-## States
+### States
 States defined here can be overridden by details in the next section. That is why the section States precedes the section Details.
 
 States are general properties that represent the state of an element&mdash;`.is-open`, `.is-closed`, `is-active`, `is-hidden`.
 
-## Details
+### Details
 Details are CSS properties that describe blocks, including decorative parts such as background images, border styles or micro-adjustments.
 
 An ID selector that specifies which Layout block a Module belongs to comes before the Module name. It serves as a namespace in a way. Everything is globally scoped in CSS, so specifying which Layout block a Module belongs to contributes to managed specificity.
@@ -441,8 +442,8 @@ It is intended that specificity increases from broader, more general declaration
 
 Optionally, the section Theme can come between Details and Motions, and the section States can be placed between Modules and Details&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, *States*, Details, *Theme*, Animations.
 
-## Animations
+### Animations
 The section Animations describe animations and interactive parts on the website.
 
-## Scaffolding
+### Scaffolding
 The section Scaffolding contains temporary code used during development. It may include code that hides blocks that have not yet been worked on, since unfinished blocks can be distracting and visually unpleasant.
