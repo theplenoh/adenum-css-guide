@@ -398,6 +398,13 @@ Adenum CSS Architecture is a CSS organization/architecture guideline with an att
     display: none;
 }
 ```
+## Blocks
+### Layout blocks
+Layout blocks are the large frames that constitute the layout of a website.
+
+A Layout block differs from a Module block in the way that a Layout block is used only once in a website, whereas a Module block may be used once or more on a website.
+
+CSS ID selectors are used to label Layout blocks&mdash;`#masthead`, `#content`, `#sidebar`, `#footer`. The fact that an ID selector is only allowed for a single element suits well how a Layout block is only used once in a website.
 
 ## Section Description
 ### CSS Reset
@@ -413,11 +420,6 @@ Rules that are commonly applied to all blocks throughout the website may be set 
 Visual rhythm of text throughout the website is described here. A separate section from the section Details is assigned to easily edit the typographic rhythm for later maintenance. A new line is used for distinction between different Layout blocks.
 
 ### Layout
-Layout blocks are the large frames that constitute the layout of a website.
-
-A Layout block differs from a Module block in the way that a Layout block is used only once in a website, whereas a Module block may be used once or more on a website.
-
-CSS ID selectors are used to label Layout blocks&mdash;`#masthead`, `#content`, `#sidebar`, `#footer`. The fact that an ID selector is only allowed for a single element suits well how a Layout block is only used once in a website.
 
 ### Modules
 Module blocks are reusable components of a website. They may be used once or more in a website.
