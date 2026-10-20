@@ -47,6 +47,8 @@ Declarations that describe decorative features and micro-adjustments should not 
 CSS declarations here define structural details and common decorative properties of Module blocks, which are reusable components, in a website.
 
 ### States
+This section is optional.
+
 States defined here can be overridden by details in the next section. That is why the section States precedes the section Details.
 
 States are general properties that represent the state of an element&mdash;`.is-open`, `.is-closed`, `.is-active`, `.is-hidden`.
@@ -57,6 +59,8 @@ Details are CSS properties that describe blocks, including decorative parts such
 Optionally, the section Theme can come between Details and Animations, and the section States can be placed between Modules and Details&mdash;CSS Reset, Webfonts, Common, Typography, Layout, Modules, *States*, Details, *Theme*, Animations.
 
 ### Theme
+This section is optional.
+
 The section Theme contains descriptions for themes such as Light/Dark mode. They can be color sets.
 
 ### Animations
