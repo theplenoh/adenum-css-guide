@@ -433,7 +433,7 @@ CSS declarations relating to major/minor layout descriptions are placed here. Su
 Declarations that define decorative features and micro-adjustments should not be here.
 
 ### Modules
-CSS declarations here define structural details and common decorative properties of Module blocks, which are reusable, in a website.
+CSS declarations here define structural details and common decorative properties of Module blocks, which are reusable components, in a website.
 
 ### States
 States defined here can be overridden by details in the next section. That is why the section States precedes the section Details.
